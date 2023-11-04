@@ -49,9 +49,14 @@ Shapes:
 title: Preparing a Talk
 ---
 flowchart TD
-    cfp>"See Announcement"] --> idea{"New idea for talk"}
+    cfp>"See Announcement"]
+    idea{"New idea for talk"}
+    submit{submit}
+    present((Present!))
 
-    idea --> |Good| submit{submit}
+    cfp --> idea
+
+    idea --> |Good| submit
     idea -.-> |Meh| idea
 
     submit -.-> |Rejected| idea
@@ -61,9 +66,9 @@ flowchart TD
         direction RL
         draft -->  slides
         slides --> practice
-        practice --> friends[show friends]
-        friends --> draft
+        practice --> reviewers
+        reviewers --> draft
     end
 
-    write ==> present((Present!))
+    write ==> present
 ```
