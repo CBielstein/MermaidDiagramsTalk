@@ -3,7 +3,7 @@
 Mermaid Entity Relationship Diagram for modeling data or models.
 Often used to describe relational databases.
 
-## Attributes
+## Entities and Attributes
 
 ```mermaid
 erDiagram
