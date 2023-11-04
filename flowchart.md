@@ -20,7 +20,7 @@ flowchart
 * `===`: thick
 * `-.-`: dotted
 
-Length: `----` ....
+Length: `----`
 
 #### Arrows
 
